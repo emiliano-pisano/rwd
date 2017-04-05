@@ -2,36 +2,61 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="container-fluid">
 
         <nav class="navbar navbar-inverse navbar-fixed-top">
-
           <div class="container-fluid">
             <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed"
+                <button type="button" class="navbar-toggle collapsed"
                      data-toggle="collapse" data-target="#my-menu" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>
-              <a class="navbar-brand" href="#">RaiTv</a>
+                </button>
+                <a class="navbar-brand" href="#">RAI_TV</a>
             </div>
-            <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="my-menu">
-                <li> <a href="#">Rai1</a></li>
-                <li> <a href="#">Rai2</a></li>
-                <li> <a href="#">Rai3</a></li>
+                <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="my-menu">
+                    <li>
+                        <a href="#" data-toggle="dropdown">Rai1<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Sport</a></li>
+                            <li><a href="#">Cinema</a></li>
+                            <li><a href="#">Musica</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" data-toggle="dropdown">Rai2<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Fiction</a></li>
+                            <li><a href="#">Educational</a></li>
+                            <li><a href="#">Movie</a></li>
+                        </ul>
+                    </li>
+                
+                    <li>
+                        <a href="#" data-toggle="dropdown">Rai3<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Documentari</a></li>
+                            <li><a href="#">Arte</a></li>
+                            <li><a href="#">Economia</a></li>
+                        </ul>
+                    </li>
+
             </ul>
           </div>
         </nav>
 
-	   <div class="row">
-          <div class="col-md-4 col-sm-6 lorem1">.col-md-4</div>
-          <div class="col-md-4 col-sm-6 lorem2">.col-md-4</div>
-          <div class="col-md-4 col-sm-12 lorem3">.col-md-4</div> 
+	<div class="row">
+        <div class="col-md-3 col-sm-6 lorem_testo1">.col-md-4</div>
+        <div class="col-md-3 col-sm-6 lorem_testo2">.col-md-4</div>
+        <div class="col-md-3 col-sm-6 lorem_testo3">.col-md-4</div>
+        <div class="col-md-3 col-sm-6 lorem_testo4">.col-md-4</div> 
 	</div>
 
 </body>
