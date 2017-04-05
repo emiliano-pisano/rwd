@@ -1,5 +1,16 @@
-var lorem="Lorem ipsum dolor sit amet, quis facilisi luctus. Donec elit vestibulum accumsan, neque porta, augue quam sed, duis eu urna eget suspendisse donec, tincidunt mauris mi tortor. Nec nunc tortor semper tristique, wisi sit, quam orci duis diam etiam. Vitae montes pellentesque volutpat rutrum sed duis, turpis sit diam amet velit, curabitur eget, mauris elementum ut ea. Id purus eget magna nunc justo, et fermentum dui egestas wisi habitant, non quam aliquam posuere elementum lacus velit, semper ut a lacinia mauris. Pede maecenas odio aenean excepturi, donec tempus dolor amet dictum proin consequat, cras et sed. Et vestibulum class interdum, nec rutrum, lorem pharetra, quisque tincidunt at donec aliquam vestibulum cum. Vulputate urna mauris nunc nec libero pharetra. Diam aliquam fermentum quam risus, in vehicula ligula iaculis.";
-lorem=lorem + lorem+lorem+lorem;
-$('.lorem1').html (lorem);
-$('.lorem2').html (lorem);
-$('.lorem3').html (lorem);
+$(function () {
+    'use strict';
+
+    var Testolorem, lorem1, lorem2, lorem3, lorem4;
+
+    Testolorem = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.';
+    lorem1 =  '<header><h1>Titolo 1</h1></header>' + '<div class="imageborder"><img src="images/rai.jpg"></div>'+ Testolorem   + Testolorem + Testolorem;
+    lorem2 =  '<header><h1>Titolo 2</h1></header>' + Testolorem +  Testolorem +'<div class="imageborder"><img src="images/rai0.jpg"></div>' + Testolorem;
+    lorem3 =  '<header><h1>Titolo 3</h1></header>' + '<div class="imageborder"><img src="images/rai00.jpg"></div>' + Testolorem +  Testolorem + Testolorem;
+    lorem4 =  '<header><h1>Titolo 4</h1></header>' + Testolorem + Testolorem + Testolorem +'<div class="imageborder"><img src="images/rai000.jpg"></div>';
+
+    $(".lorem_testo1").html(lorem1);
+    $(".lorem_testo2").html(lorem2);
+    $(".lorem_testo3").html(lorem3);
+    $(".lorem_testo4").html(lorem4);
+});
